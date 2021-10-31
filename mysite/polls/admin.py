@@ -1,3 +1,5 @@
 from django.contrib import admin
+from django.utils.translation import ugettext
+from .models        import Question
 
-# Register your models here.
+admin.site.register(Question)
